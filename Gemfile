@@ -18,6 +18,7 @@ group :test do
   gem 'factory_girl_rails', '4.2.1'
 end
 
+
 gem 'pg', groups: %w(production), require: false
 
 # Use sqlite3 as the database for Active Record
